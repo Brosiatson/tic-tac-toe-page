@@ -1,0 +1,27 @@
+header{
+    align-items: center;
+    color: #fff;
+    display: flex;
+    height: 148px;
+    justify-content: center;
+    width: 100vw;
+}
+
+header h1{
+    display: flex;
+    font-size: 64px;
+}
+
+.p-aqua{
+    color: var(--aiColor);
+}
+
+.p-yellow{
+    color: var(--playerColor)
+}
+
+@media (max-width: 400px) {
+    header h1{
+        font-size: 36px;
+    }
+}

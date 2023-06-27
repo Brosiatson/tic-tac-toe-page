@@ -1,0 +1,17 @@
+.div-button{
+    align-items: center;
+    display: flex;
+    height: 136px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.div-button button{
+    background-color: var(--bg-color);
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 32px;
+    height: 72%;
+    width: 172px;
+}

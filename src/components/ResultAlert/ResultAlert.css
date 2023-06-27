@@ -1,0 +1,11 @@
+.div-result{
+    align-items: center;
+    display: flex;
+    font-size: 32px;
+    height: 64px;
+    justify-content: center;
+}
+
+.div-result p{
+    color: #fff;
+}

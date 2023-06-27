@@ -1,0 +1,23 @@
+.div-tic-tac-toe{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(3, 33.33%);
+    height: 560px;
+    justify-content: center;
+    width: 560px;
+}
+
+@media (max-width: 750px) {
+    .div-tic-tac-toe {
+        height: 384px;
+        width: 384px;
+    }
+}
+
+@media (max-width: 500px) {
+    .div-tic-tac-toe {
+        height: 240px;
+        width: 240px;
+    }
+}
